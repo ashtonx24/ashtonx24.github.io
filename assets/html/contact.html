@@ -24,20 +24,51 @@
             </nav>
           </div>
         </header>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <i class="bi bi-envelope-at"></i>
-          <p><a href="mailto:asharc789@gmail.com">Email me here</a></p>
-        </div>
-        <div class="contact-info-container">
-          <i class="bi bi-linkedin"></i>
-          <p><a href="https://www.linkedin.com/in/ashar-chougle-a23224289/">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
+        <section id="contact"> 
+          <div class="contact-container">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-wrapper">
+              <div class="contact-column">
+                <form id="contact-form" action="https://formspree.io/f/xwplejyl" method="post" class="contact-form">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required/>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required/>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">
+                    Send
+                  </button>
+                </form>
+              </div>
+              <div class="contact-column contact-right">
+                <p><i class="bi bi-envelope"></i> Email: asharc789@gmail.com</p>
+                <p><i class="bi bi-geo"></i> Location: Navi Mumbai, India</p>
+                <div class="social-links">
+                  <a
+                    href="https://www.linkedin.com/in/ashar-chougle-a23224289/"
+                    class="linkedin"
+                  >
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://github.com/ashtonx24"
+                    class="github"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>        
     <footer>
       <p>Copyright &#169; 2025 Ashar Chougle. All Rights Reserved.</p>
     </footer>
