@@ -260,7 +260,13 @@ section {
 .about-details-container .text-container p{
   gap: 1px;
   word-spacing: 0.5px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.about-details-container .text-container p strong{
+  color: #adc5ff;
 }
 
 .about-details-container {
@@ -444,6 +450,21 @@ article:hover{
   padding-top: 20px;
 }
 
+.contact-right p{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.contact-right p a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-right p:hover{
+  color: #ced4da;
+  cursor: pointer;
+}
+
+
 /* 4) Make columns stack on smaller screens (optional) */
 @media (max-width: 768px) {
   .contact-wrapper {
@@ -465,6 +486,10 @@ article:hover{
   color: #eee;
 }
 
+.form-group textarea{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -482,6 +507,12 @@ article:hover{
 .social-links .github:hover{
   color:#000;
   transform: scale(1.2);
+}
+
+.social-links{
+  gap: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .contact-form button {
