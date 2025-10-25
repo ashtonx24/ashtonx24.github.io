@@ -1,76 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ashtonx24 | Portfolio</title>
-        <link rel="stylesheet" href="/assets/css_js/style.css" />
-        <link rel="stylesheet" href="/assets/css_js/mediaqueries.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"/>
-      </head>
-      <body>
-        <header id="header">
-          <div class="container">
-            <h1 class="logo"><a href="/index.html">Ashton</a></h1>
-            <nav id="navbar" class="navbar">
-              <ul>
-                <li><a href="/assets/html/about.html">About</a></li>
-                <li><a href="/assets/html/experience.html">Experience</a></li>
-                <li><a href="/assets/html/projects.html">Projects</a></li>
-                <li><a href="/assets/html/contact.html">Contact</a></li>
-              </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashtonx24 | Portfolio</title>
+    <link rel="stylesheet" href="/assets/css_js/style.css" />
+    <link rel="stylesheet" href="/assets/css_js/mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <h1 class="logo"><a href="/index.html">Ashton</a></h1>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+    <section id="contact">
+      <div class="contact-container">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-wrapper">
+          <div class="contact-column">
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/xwplejyl"
+              method="post"
+              class="contact-form"
+            >
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
           </div>
-        </header>
-        <section id="contact"> 
-          <div class="contact-container">
-            <p class="section__text__p1">Get in Touch</p>
-            <h1 class="title">Contact Me</h1>
-            <div class="contact-wrapper">
-              <div class="contact-column">
-                <form id="contact-form" action="https://formspree.io/f/xwplejyl" method="post" class="contact-form">
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" required/>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required/>
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary">
-                    Send
-                  </button>
-                </form>
-              </div>
-              <div class="contact-column contact-right">
-                <p><i class="bi bi-envelope"></i> Email: <a href="mailto:asharc789@gmail.com">asharc789@gmail.com</a></p>
-                <p><i class="bi bi-geo"></i> Location: <a href="https://www.google.com/maps/place/Navi+Mumbai,+Maharashtra,+India/@19.015498,72.866961,12z" target="_blank">Navi Mumbai, India</a></p>              
-                <div class="social-links">
-                  <a
-                    href="https://www.linkedin.com/in/ashar-chougle-a23224289/"
-                    class="linkedin"
-                  >
-                    <i class="bi bi-linkedin"></i>
-                  </a>
-                  <a
-                    href="https://github.com/ashtonx24"
-                    class="github"
-                  >
-                    <i class="bi bi-github"></i>
-                  </a>
-                </div>
-              </div>
+          <div class="contact-column contact-right">
+            <p>
+              <i class="bi bi-envelope"></i> Email:
+              <a href="mailto:admin@inkdnafingerprint.com"
+                >admin@inkdnafingerprint.com</a
+              >
+            </p>
+            <p>
+              <i class="bi bi-geo"></i> Location:
+              <a
+                href="https://www.google.com/maps/place/Navi+Mumbai,+Maharashtra,+India/@19.015498,72.866961,12z"
+                target="_blank"
+                >Navi Mumbai, India</a
+              >
+            </p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/ashtonx24/" class="linkedin">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://github.com/ashtonx24" class="github">
+                <i class="bi bi-github"></i>
+              </a>
             </div>
           </div>
-        </section>        
+        </div>
+      </div>
+    </section>
     <footer>
-      <p>Copyright &#169; <script>document.write(new Date().getFullYear())</script> Ashar Chougle. All Rights Reserved.</p>
+      <p>
+        Copyright &#169;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Ashar Chougle. All Rights Reserved.
+      </p>
     </footer>
     <script src="/assets/css_js/script.js"></script>
   </body>
